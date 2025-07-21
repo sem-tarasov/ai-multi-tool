@@ -6,12 +6,12 @@ An AI multi-tool that simplifies daily AI usage
 As an option for deployment, you can use GitHub Actions. 
 Example for deployment to Google Cloud is described in [this file](./.github/workflows/google.yml).
 
-### Prerequiesits
+### Prerequisites
 Before deployment you should create:
 1. [Google Cloud Project](https://cloud.google.com/resource-manager/docs/creating-managing-projects)
 
-### Enviroments
-For deployment using GitHUb workflow you need to set in GitHub next vars:
+### Environments
+For deployment using GitHub workflow you need to set in GitHub the following vars:
 - GCP_PROJECT_ID
 
 ## Code Review
