@@ -3,8 +3,7 @@ An AI multi-tool that simplifies daily AI usage
 
 # CI/CD 
 ## Deployment to Google Cloud
-As an option for deployment, you can use GitHub Actions. 
-Example for deployment to Google Cloud is described in [this file](./.github/workflows/google.yml).
+As an option for deployment, you can use GitHub Actions.
 
 ### Prerequisites
 Before deployment you should create:
