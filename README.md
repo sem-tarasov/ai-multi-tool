@@ -1,2 +1,2 @@
-# ai-multi-tool
+# AI Multi-tool
 An AI multi-tool that simplifies daily AI usage
