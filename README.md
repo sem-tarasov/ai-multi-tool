@@ -1,6 +1,8 @@
 # AI Multi-Tool
 
-An AI-powered toolkit that provides multiple AI utilities in one streamlined application. Built with Streamlit and powered by Nebius AI Studio API.
+An AI-powered toolkit that provides multiple AI utilities in one streamlined application. 
+
+Built with Streamlit and powered by Nebius AI Studio API.
 
 You can check the example of the deployed app on [ai-multi-tool.streamlit.app](https://ai-multi-tool.streamlit.app/).
 
@@ -40,33 +42,10 @@ You can check the example of the deployed app on [ai-multi-tool.streamlit.app](h
 
 📖 [Full API documentation](https://docs.nebius.com/studio/api/authentication)
 
-## 🏃‍♂️ Running the Application
-
-### Option 1: Using Docker
-```bash
-# Build the container
-docker build -t ai-multi-tool .
-
-# Run the container
-docker run -p 8501:8501 ai-multi-tool
-```
-
-### Option 2: Direct Streamlit
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-streamlit run app.py
-```
-
-The application will be available at `http://localhost:8501`.
-
 ## 📦 Dependencies
 
 ```
-streamlit>=1.42.0
-Authlib>=1.3.2  
+streamlit>=1.42.0 
 requests>=2.31.0
 ```
 
@@ -80,27 +59,21 @@ requests>=2.31.0
 
 ### Docker Deployment
 ```bash
-# Build and run with custom port
-docker run -p 80:8501 ai-multi-tool
+# Build the container
+docker build -t ai-multi-tool .
+
+# Run the container
+docker run -p 8501:8501 ai-multi-tool
 ```
 
-## 🔄 Development
+### Local Direct Streamlit
+```bash
+# Install dependencies
+pip install -r requirements.txt
 
-### Project Structure
+# Run the application
+streamlit run app.py
 ```
-ai-multi-tool/
-├── app.py              # Main Streamlit application
-├── requirements.txt    # Python dependencies
-├── Dockerfile         # Container configuration
-├── README.md          # This file
-└── .streamlit/        # Streamlit configuration
-```
-
-### Key Functions
-- `call_nebius_api()` - Reusable API integration
-- `chatbot_interface()` - Chat functionality
-- `text_checker_interface()` - Text correction
-- `recipe_creator_interface()` - Recipe generation
 
 ## 🤖 AI Models Available
 
