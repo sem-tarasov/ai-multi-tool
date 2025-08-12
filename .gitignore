@@ -209,3 +209,5 @@ __marimo__/
 # Secrets
 secrets.toml
 secrets.*
+
+.idea
